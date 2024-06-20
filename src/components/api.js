@@ -11,10 +11,10 @@ export const Constant =  [
   
   export const createPost = (title, content) => {
     const newPost = {
-      id: posts.length + 1,
+      id: Constant.length + 1,
       title,
       content,
     };
-    posts.push(newPost);
+    Constant.push(newPost);
   };
   
